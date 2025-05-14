@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Projects - Said Sakour Portfolio">
+  <meta name="keywords" content="Projects, Web Development, Portfolio">
+  <meta name="author" content="Said Sakour">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Projects</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Projects</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="survey.html">Survey</a></li>
+      </ul>
+    </nav>
+    <!-- <button id="themeToggle" aria-label="Toggle Dark Mode" onclick="toggleTheme()">🌓</button> -->
+
+  </header>
+
+  <main class="projects-grid">
+    <article class="project">
+      <h2>Project 1</h2>
+      <img src="download2.jpg" alt="Screenshot of Project 1">
+      <p>This is a brief overview of Project 1.</p>
+      <button onclick="toggleDetails('p1')">Toggle Details</button>
+      <div id="p1" class="details" style="display:none;">
+        <p>Technologies: HTML, CSS, JavaScript</p>
+        <p>Features: Responsive design, form validation, etc.</p>
+      </div>
+    </article>
+
+    <article class="project">
+      <h2>Project 2</h2>
+      <img src="download1.jpg" alt="Screenshot of Project 2">
+      <p>Brief summary of Project 2.</p>
+      <button onclick="toggleDetails('p2')">Toggle Details</button>
+      <div id="p2" class="details" style="display:none;">
+        <p>Technologies: HTML, Bootstrap</p>
+        <p>Features: Grid layout, modals, cards.</p>
+      </div>
+    </article>
+
+    <article class="project">
+      <h2>Project 3</h2>
+      <img src="lms.jpg" alt="Screenshot of Project 3" usemap="#project-map">
+      <p>Demo project with image map below.</p>
+      <map name="project-map">
+        <area shape="rect" coords="0,0,100,100" href="https://github.com" target="_blank" alt="GitHub">
+        <area shape="circle" coords="150,75,30" href="https://linkedin.com" target="_blank" alt="LinkedIn">
+      </map>
+      <button onclick="toggleDetails('p3')">Toggle Details</button>
+      <div id="p3" class="details" style="display:none;">
+        <p>Technologies: HTML, CSS, JS</p>
+        <p>Features: Image map for clickable areas.</p>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Said Sakour</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

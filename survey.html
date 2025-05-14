@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Survey - [Your Name] Portfolio">
+  <meta name="keywords" content="Survey, Web Developer, Feedback">
+  <meta name="author" content="[Your Name]">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Survey</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="survey.html">Survey</a></li>
+      </ul>
+    </nav>
+    <!-- <button id="themeToggle" aria-label="Toggle Dark Mode" onclick="toggleTheme()">🌓</button> -->
+
+  </header>
+
+  <main>
+    <form id="surveyForm">
+      <label for="fullname">Full Name: *</label>
+      <input type="text" id="fullname" name="fullname" required>
+
+      <label for="email">Email: *</label>
+      <input type="email" id="email" name="email" required>
+
+      <fieldset>
+        <legend>How did you hear about me?</legend>
+        <label><input type="radio" name="source" value="social" required> Social Media</label>
+        <label><input type="radio" name="source" value="friend"> Friend</label>
+        <label><input type="radio" name="source" value="search"> Search Engine</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>What services are you interested in?</legend>
+        <label><input type="checkbox" name="services" value="webdesign"> Web Design</label>
+        <label><input type="checkbox" name="services" value="frontend"> Frontend Development</label>
+        <label><input type="checkbox" name="services" value="backend"> Backend Development</label>
+      </fieldset>
+
+      <label for="comments">Additional Comments:</label>
+      <textarea id="comments" name="comments" rows="4"></textarea>
+
+      <button type="submit">Submit Survey</button>
+      <p id="surveyMessage" style="color: green;"></p>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Said Sakour</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

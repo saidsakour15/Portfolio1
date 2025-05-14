@@ -1,0 +1,158 @@
+MANET 
+MIS. ZUBEDA KILUA
+INTRODUCTION
+What is MANET?
+A Mobile Ad Hoc Network (MANET) is a selfconfiguring, infrastructure-less network of mobile devices connected wirelessly. Each node in a MANET is free to move independently and can act as both a host and a router, forwarding data for other nodes.
+Cont..
+MANET is a decentralized wireless network consisting of mobile devices (nodes) that communicate with each other without relying on a fixed infrastructure,
+MANETs are characterized by their dynamic topology, where nodes can move freely, causing frequent changes in the network structure
+Key Characteristics of MANET
+Dynamic Topologies: The network topology changes randomly and rapidly as nodes move. This can result in unidirectional or bidirectional links.
+Bandwidth Constraints: Wireless links in MANETs typically have lower reliability, efficiency, and capacity compared to wired networks.
+Autonomous Behavior: Each node acts as both a host and a router, forwarding traffic to other nodes,
+Cont..
+Energy Constraints: Nodes often rely on batteries, making energy conservation crucial.
+Limited Security: MANETs are more susceptible to security threats due to their decentralized nature.
+ 
+ 
+ 
+POSSIBLE ATTACKS ON MANET
+❖Routing Attacks
+These target the routing protocols, which are crucial in MANETs since every node also acts as a router.
+Cont..
+1. Black Hole Attack
+A malicious node falsely advertises a shortest/optimal route to the destination.
+Once data is routed through it, the node drops all packets (like a black hole).
+ 
+ 
+ 
+Cont..
+2. Wormhole Attack
+Two attackers establish a tunnel between them, tricking nodes into thinking they are neighbors.
+This disrupts normal routing and enables data interception or manipulation.
+ 
+ 
+ 
+Cont..
+3. Gray Hole Attack
+Like Black Hole, but drops packets selectively, making it harder to detect.
+ 
+Cont..
+4. Rushing Attack
+A node floods the network with route requests (RREQs) quickly to suppress legitimate ones.
+It gets into many routing paths and can disrupt the network.
+ 
+ 
+ 
+Cont..
+5. Byzantine Attack
+A group of compromised nodes collaborate to drop, modify, or misroute packets. 
+POSSIBLE ATTACKS ON MANET
+❖Impersonation & Spoofing Attacks
+1. Sybil Attack
+A single node presents multiple fake identities to gain influence in the network (e.g., in votingbased decisions or routing).
+Cont..
+2. Spoofing Attack
+A node pretends to be another by spoofing its MAC or IP address, potentially hijacking traffic or causing misrouting.
+Cont..
+❖Eavesdropping & Passive Attacks
+Attackers listen to communication without interfering.
+Used to steal sensitive data or gather information for future attacks.
+Cont..
+❖Denial of Service (DoS) Attacks 1.  Jamming
+The attacker floods the network with signals to disrupt wireless communication.
+Cont..
+2.  Flooding Attack
+Sends excessive route requests (RREQs) or fake packets to consume resources and crash nodes.
+Cont..
+❖Information Disclosure & Replay Attacks 1. Replay Attack
+An attacker captures a valid data transmission and replays it to trick nodes (e.g., replaying login info).
+Summary
+MANETs are vulnerable to both internal and external threats due to their decentralized, wireless, and open nature.
+Main Categories:
+1.Routing attacks
+2.Impersonation attacks
+3.Eavesdropping
+4.Denial of Service (DoS)
+5.Replay & passive attacks
+ 
+ 
+MANET 
+MIS. ZUBEDA KILUA
+INTRODUCTION
+What is MANET?
+A Mobile Ad Hoc Network (MANET) is a selfconfiguring, infrastructure-less network of mobile devices connected wirelessly. Each node in a MANET is free to move independently and can act as both a host and a router, forwarding data for other nodes.
+Cont..
+MANET is a decentralized wireless network consisting of mobile devices (nodes) that communicate with each other without relying on a fixed infrastructure,
+MANETs are characterized by their dynamic topology, where nodes can move freely, causing frequent changes in the network structure
+Key Characteristics of MANET
+Dynamic Topologies: The network topology changes randomly and rapidly as nodes move. This can result in unidirectional or bidirectional links.
+Bandwidth Constraints: Wireless links in MANETs typically have lower reliability, efficiency, and capacity compared to wired networks.
+Autonomous Behavior: Each node acts as both a host and a router, forwarding traffic to other nodes,
+Cont..
+Energy Constraints: Nodes often rely on batteries, making energy conservation crucial.
+Limited Security: MANETs are more susceptible to security threats due to their decentralized nature.
+ 
+ 
+ 
+POSSIBLE ATTACKS ON MANET
+❖Routing Attacks
+These target the routing protocols, which are crucial in MANETs since every node also acts as a router.
+Cont..
+1. Black Hole Attack
+A malicious node falsely advertises a shortest/optimal route to the destination.
+Once data is routed through it, the node drops all packets (like a black hole).
+ 
+ 
+ 
+Cont..
+2. Wormhole Attack
+Two attackers establish a tunnel between them, tricking nodes into thinking they are neighbors.
+This disrupts normal routing and enables data interception or manipulation.
+ 
+ 
+ 
+Cont..
+3. Gray Hole Attack
+Like Black Hole, but drops packets selectively, making it harder to detect.
+ 
+Cont..
+4. Rushing Attack
+A node floods the network with route requests (RREQs) quickly to suppress legitimate ones.
+It gets into many routing paths and can disrupt the network.
+ 
+ 
+ 
+Cont..
+5. Byzantine Attack
+A group of compromised nodes collaborate to drop, modify, or misroute packets. 
+POSSIBLE ATTACKS ON MANET
+❖Impersonation & Spoofing Attacks
+1. Sybil Attack
+A single node presents multiple fake identities to gain influence in the network (e.g., in votingbased decisions or routing).
+Cont..
+2. Spoofing Attack
+A node pretends to be another by spoofing its MAC or IP address, potentially hijacking traffic or causing misrouting.
+Cont..
+❖Eavesdropping & Passive Attacks
+Attackers listen to communication without interfering.
+Used to steal sensitive data or gather information for future attacks.
+Cont..
+❖Denial of Service (DoS) Attacks 1.  Jamming
+The attacker floods the network with signals to disrupt wireless communication.
+Cont..
+2.  Flooding Attack
+Sends excessive route requests (RREQs) or fake packets to consume resources and crash nodes.
+Cont..
+❖Information Disclosure & Replay Attacks 1. Replay Attack
+An attacker captures a valid data transmission and replays it to trick nodes (e.g., replaying login info).
+Summary
+MANETs are vulnerable to both internal and external threats due to their decentralized, wireless, and open nature.
+Main Categories:
+1.Routing attacks
+2.Impersonation attacks
+3.Eavesdropping
+4.Denial of Service (DoS)
+5.Replay & passive attacks
+ 
+ 
